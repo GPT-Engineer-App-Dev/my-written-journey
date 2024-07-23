@@ -13,7 +13,7 @@ const Layout = () => {
             {/* Navbar content can be added here (note navItems are put in the sidebar) */}
           </div>
         </header>
-        <main className="flex-grow p-4 overflow-auto">
+        <main className="flex-grow p-4 overflow-auto mt-8">
           <Outlet />
         </main>
       </div>
