@@ -13,7 +13,7 @@ const Layout = () => {
         <SearchBar />
         <MobileSheet navItems={navItems} />
       </header>
-      <main className="flex-grow overflow-auto p-4 md:p-6">
+      <main className="flex-grow overflow-auto p-4 md:p-6 mt-8">
         <Outlet />
       </main>
       <Footer />

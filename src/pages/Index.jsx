@@ -10,7 +10,7 @@ const recentPosts = [
 
 const Index = () => {
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 mt-4">
       <section className="text-center">
         <h1 className="text-4xl font-bold mb-4">Welcome to My Blog</h1>
         <p className="text-xl text-muted-foreground">Exploring the world of web development, one post at a time.</p>

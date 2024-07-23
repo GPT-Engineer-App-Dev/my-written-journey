@@ -12,7 +12,7 @@ const blogPosts = [
 
 const Blog = () => {
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 mt-4">
       <h1 className="text-4xl font-bold mb-4">Blog Posts</h1>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {blogPosts.map((post) => (

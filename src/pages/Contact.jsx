@@ -12,7 +12,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 mt-4">
       <h1 className="text-4xl font-bold mb-4">Contact Me</h1>
       <Card>
         <CardHeader>
